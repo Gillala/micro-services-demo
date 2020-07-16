@@ -21,5 +21,21 @@ Assumptions:
 3) node index.js or npm run start
 
 Once the Service is running it looks as below.
+![runningsolution](https://user-images.githubusercontent.com/2565141/87624992-fadeae80-c720-11ea-8b57-2dfb35302e1e.JPG)
+
+File Generated Location in the Solution:
+![filegenerated](https://user-images.githubusercontent.com/2565141/87624987-f9ad8180-c720-11ea-8483-a78d395c5691.JPG)
+
+File Generated with Route:
+![pdfquotationgeneration](https://user-images.githubusercontent.com/2565141/87624991-fa461800-c720-11ea-81f3-9ae4ab1e208f.JPG)
+
+Content Of PDF File Screenshot:
+![PDFFileContent](https://user-images.githubusercontent.com/2565141/87624989-fa461800-c720-11ea-838b-7839fad887af.JPG)
+
+
+
+
+
+
 
 
