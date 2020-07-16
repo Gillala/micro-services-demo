@@ -1,0 +1,28 @@
+{
+  "name": "micro-services-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "lint": "standard"
+  },
+  "keywords": [],
+  "author": "Hari Gillala",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/boom": "^9.1.0",
+    "@hapi/code": "^8.0.1",
+    "@hapi/good": "^9.0.0",
+    "@hapi/good-console": "^9.0.0",
+    "@hapi/good-squeeze": "^6.0.0",
+    "@hapi/hapi": "^19.1.1",
+    "@hapi/joi": "^17.1.1",
+    "@hapi/lab": "^22.0.4",
+    "blipp": "^4.0.1",
+    "boom": "^7.3.0",
+    "fs": "0.0.1-security",
+    "pdfmake": "^0.1.66",
+    "standard": "^14.3.4"
+  }
+}
