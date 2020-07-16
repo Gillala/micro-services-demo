@@ -7,7 +7,7 @@ module.exports = {
     handler: async (request, h) => {
       await completedPDFData()
       return {
-        ok: 200
+        quotationfilegenerated: 'A PDF file  is generated and available in rootfolderoftheproject\\quotes, this file has information related to quotes',
       }
     }
   }

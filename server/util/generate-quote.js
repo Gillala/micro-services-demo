@@ -3,6 +3,7 @@ const vfsFonts = require('pdfmake/build/vfs_fonts')
 pdfMake.vfs = vfsFonts.pdfMake.vfs
 const body = require('./body')
 const header = require('./header')
+const generator = require('./file-name-generator')
 
 var fs = require('fs')
 const Boom = require('boom')
@@ -35,7 +36,7 @@ var completedPDFData = async () => {
     fullContentForPDF.content = body.dataForPdf()
 
     pdfMake.createPdf(fullContentForPDF).getBuffer(function (result) {
-      fs.writeFile('quotes/test.pdf', result, function (err) {
+      fs.writeFile(`quotes/${generator.generatefilename()}.pdf`, result, function (err) {
         if (err) throw err
       })
     })
