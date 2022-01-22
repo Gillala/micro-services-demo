@@ -22,7 +22,7 @@
     "blipp": "^4.0.1",
     "boom": "^7.3.0",
     "fs": "0.0.1-security",
-    "nanoid": "^3.1.10",
+    "nanoid": "^3.1.31",
     "nanoid-generate": "^1.0.0",
     "pdfmake": "^0.1.66",
     "standard": "^14.3.4"
